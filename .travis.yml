@@ -1,4 +1,6 @@
 language: ruby
+rvm:
+  - 2.3
 deploy:
   script: bash tests/test1.sh
   provider: releases
