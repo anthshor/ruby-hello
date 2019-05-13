@@ -1,5 +1,5 @@
 def hello
-    puts('hello')
+    return "hello"
 end
 
-hello()
+puts(hello())
